@@ -169,6 +169,14 @@ article
 {
   list-style-type: none;
 }
+.dates
+{
+  font-weight: bold;
+}
+.metier
+{
+  text-decoration: underline;
+}
 @media all and (max-width: 1024px)
 {
   article
