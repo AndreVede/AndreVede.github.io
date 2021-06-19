@@ -1,0 +1,170 @@
+@font-face
+{
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'anonymous_proregular';
+    src: url('anonymous_pro-webfont.woff2') format('woff2'),
+         url('anonymous_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face
+{
+    font-family: 'anonymous_probold';
+    src: url('anonymous_pro_b-webfont.woff2') format('woff2'),
+         url('anonymous_pro_b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+  background: url('greyzz.png');
+  font-family: playfair_displayregular;
+  color: #181818;
+}
+#conteneur
+{
+  width: 85%;
+}
+#conteneur, #liseret
+{
+  display: inline-block;
+  vertical-align: top;
+}
+#liseret
+{
+  width: 10%;
+  margin-right: 3%;
+  height: 500px;
+  background-image: url('lodyas.png');
+  border-radius: 10px;
+}
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+section h1, nav a
+{
+    font-family: abril_fatfaceregular;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#titre_principal
+{
+  display: flex;
+  flex-direction: column;
+}
+header h1
+{
+  font-family: playfair_displayregular;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+  color: red;
+  text-shadow: 6px 6px 6px black;
+}
+header h2
+{
+  font-family: abril_fatfaceregular;
+  font-size: 1.5em;
+  margin-top: 0px;
+  font-weight: normal;
+}
+/* Navigation */
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+}
+nav li
+{
+  margin-right: 15px;
+}
+nav a
+{
+  font-size: 0.8em;
+  color: #181818;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+nav a:hover
+{
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+p
+{
+  text-align: justify;
+}
+article
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 2%;
+}
+#cpt
+{
+  width: 30%;
+  margin-right: auto;
+  flex: 2;
+}
+#xp
+{
+  width: 30%;
+  margin-right: auto;
+  flex: 3;
+}
+#Formateur
+{
+  width: 30%;
+  margin-right: auto;
+  flex: 2;
+}
+@media all and (max-width: 1024px)
+{
+  article
+  {
+    display: block;
+    width: auto;
+
+  }
+  #liseret
+  {
+    display: none;
+  }
+  #conteneur
+  {
+    width: auto;
+  }
+  /* Navigation */
+  nav ul
+  {
+    list-style-type: none;
+    display: block;
+    width: auto;
+  }
+  nav li
+  {
+    margin: 20px 15px 20px 0;
+  }
+
+}

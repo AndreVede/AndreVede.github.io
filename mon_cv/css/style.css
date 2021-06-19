@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'anonymous_proregular';
+    src: url('anonymous_pro-webfont.woff2') format('woff2'),
+         url('anonymous_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'anonymous_probold';
+    src: url('anonymous_pro_b-webfont.woff2') format('woff2'),
+         url('anonymous_pro_b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+  background: url("fuji.jpg") fixed no-repeat;
+
+}
+h1
+{
+  text-align: center;
+  font-family: abril_fatfaceregular;
+  font-size: 3em;
+  color: red;
+  text-shadow: 6px 6px 6px black;
+
+}
+h2
+{
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+h3
+{
+  font-size: 1.8em;
+  font-family: sans-serif;
+  padding: auto;
+}
+h4
+{
+  font-size: 1.3em;
+  font-family: sans-serif;
+}
+p, ul, ol
+{
+  width: auto;
+  font-family: anonymous_proregular;
+  font-size: 1.5em;
+  margin: 10px;
+  padding: auto;
+  overflow: auto;
+  word-wrap: break-word;
+}
+a
+{
+  text-decoration: none;
+  color: red;
+  font-style: italic;
+}
+a:hover
+{
+  color: green;
+  text-decoration: underline;
+}
+a:focus
+{
+  background-color: yellow;
+}
+
+
+.tete
+{
+  order: 1;
+}
+.informations
+{
+  float: right;
+  text-align: right;
+  border: 3px red inset;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 6px 6px 6px black;
+  order: 3;
+}
+.cpt
+{
+  order: 4;
+}
+.cptf
+{
+  order: 5;
+}
+.xp
+{
+  order: 6;
+}
+.format
+{
+  order: 7;
+}
+
+.info
+{
+  font-family: monospace;
+}
+.dates
+{
+  font-family: anonymous_probold;
+  font-size: 1.1em
+}
+.flottant
+{
+float: right;
+}
+#photo
+{
+  text-align: center;
+}
+#photo img
+{
+  border: 1px solid #181818;
+}
+figure img
+{
+  margin-right: 5px;
+}
+.metier
+{
+  text-decoration: underline;
+}
+.photop
+{
+  clear: both;
+}
+.langue
+{
+  border: 3px blue inset;
+  border-radius: 10px;
+  background-color: white;
+  order: 9;
+  flex: 1;
+}
+
+.interet
+{
+  border: 3px blue inset;
+  border-radius: 10px;
+  background-color: white;
+  order: 8;
+  flex: 2;
+}
+.table
+{
+  border: 3px red inset;
+  order: 2;
+  float: left;
+}
+/* tta est le titre de la table des matières */
+.tta
+{
+text-align: center;
+border-bottom: 2px red inset;
+border-radius: 10px/5px;
+}
+.mat
+{
+font-size: 1.2em;
+list-style: square;
+color: red;
+}
